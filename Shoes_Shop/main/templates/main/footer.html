@@ -39,9 +39,25 @@
 </footer>
 
 <style>
-    footer {
-        background-color: #cae1de;
+    :root {
+        --primary-color: #FA5A2A;
+        --black-color: #030711;
+        --white-color: #FFFFFF;
+        --secondary-color: #A4A8B5;
     }
+    footer {
+        background-color: var(--black-color);
+        color: var(--white-color);
+    }
+
+    footer h4 {
+        color: var(--primary-color);
+    } 
+
+    footer a {
+        color: var(--white-color);
+    } 
+
     .footer-container {
         display: flex;
         justify-content: space-between;
@@ -53,6 +69,8 @@
     }
 
     .foot-container {
-        background-color: #cfcfcf;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        border-top: 1px solid var(--white-color);
     }
 </style>
