@@ -1,4 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #FA5A2A;
+    --black-color: #030711;
+    --white-color: #f4f4f4;
+    --secondary-color: #A4A8B5;
+}
+
 body {
-    background-color: beige;
     min-height: 50vh;
 }
